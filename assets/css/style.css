@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 40px;
 }
 
 /* navigation links */
@@ -41,6 +42,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    
 }
 
 #menu a {
@@ -109,6 +111,68 @@ h1, h2 {
     position: absolute;
     
 
+}
+
+/* Club Ethos Section */
+
+#club-ethos {
+
+    height:600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    
+
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    
+
+}
+
+#centre-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgb(0, 195, 255) ;
+
+
+}
+
+.left-about-heading {
+    width:60%
+    float: right;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width:60%
+    float: left;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin:100%
+    margin: 5px 0;
 }
         
 
